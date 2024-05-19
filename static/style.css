@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff0000; /* Red background color */
+    color: #ffffff; /* White text color */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff; /* White text color */
+}
+
+h2 {
+    margin: 0;
+}
+
+/* Container for options */
+.options-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Option styles */
+.option {
+    width: 45%; /* Increased width */
+    background-color: #ffffff; /* White background color */
+    padding: 40px; /* Increased padding */
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #ffffff; /* White border */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.option:hover {
+    transform: scale(1.05); /* Enlarge the option on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Add shadow on hover */
+}
+
+.option a {
+    text-decoration: none;
+    color: #333333; /* Dark text color */
+}
+
+.option h2 {
+    margin: 0;
+    color: #ff0000; /* Red text color */
+}
+
+.chart-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000; /* Ensure the text inside the chart is visible */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.data {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data th, .data td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.data th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
