@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to the Dashboard</h1>
+    <div class="options-container">
+        <div class="option">
+            <a href="/sales">
+                <h2>View Product Sales Data</h2>
+            </a>
+        </div>
+        <div class="option">
+            <a href="/customers">
+                <h2>Explore Customer States</h2>
+            </a>
+        </div>
+        <div class="option">
+            <a href="/products/categories">
+                <h2>Analyze Product Categories</h2>
+            </a>
+        </div>
+        <div class="option">
+            <a href="/products/colors">
+                <h2>Check Product Colors Distribution</h2>
+            </a>
+        </div>
+        <div class="option">
+            <a href="/sales/trends">
+                <h2>Track Sales Trends Over Time</h2>
+            </a>
+        </div>
+        <div class="option">
+            <a href="/customers/gender">
+                <h2>View Customer Gender Distribution</h2>
+            </a>
+        </div>
+        <div class="option">
+            <a href="/products/line">
+                <h2>Examine Product Line Distribution</h2>
+            </a>
+        </div>
+        <div class="option">
+            <a href="/products/model">
+                <h2>Explore Product Model Distribution</h2>
+            </a>
+        </div>
+        <div class="option">
+            <a href="/products">
+                <h2>View Products List</h2>
+            </a>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
